@@ -1,0 +1,14 @@
+body{
+    background-color: #85bb65;
+}
+h1 {
+    color: brown;
+    background-color: #585fff;
+}
+#box4{
+    color: rgb(255, 140, 148);
+    background-color: #337895;
+}
+#box5{
+    background-color: hsl(180, 100%, 60%);
+}

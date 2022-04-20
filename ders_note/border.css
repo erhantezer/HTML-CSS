@@ -1,0 +1,19 @@
+#box1{
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
+}
+#box4{
+    border: 5px solid blueviolet;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+#box3{
+    border-style: solid dotted;
+    border-width: 10px 20px;
+    border-color: red green;
+    border-radius: 3px;
+}
+#box5{
+    
+}
