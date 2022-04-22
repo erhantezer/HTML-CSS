@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,82 +8,108 @@
     <title>FORM PROJE</title>
     <link rel="stylesheet" href="proje.css">
 </head>
-   <body>
-        <div>
-            <form action="result.html" method="get">
-                <div>
-                    <h3>Yazılımcı Alım Sözleşmesi</h3>
-                </div>
-                <div>
-                    <fieldset>
-                        <legend>Kişisel Bilgiler</legend>
-                        <label for="">Ad </label>
-                        <input type="text" name="" id="" placeholder="Adınız"><br><br>
-                        <label for="">Soyad</label>
-                        <input type="text" name="" id="" placeholder="Soyadınız"><br><br>
-                        <label for="">Yaş</label>
-                        <input type="number" name="" id="" placeholder="xx"><br><br>
-                        <label for="">Mail Adres</label>
-                        <input type="email" name="" id="" placeholder="example@gmail.com"><br><br>
-                        <label for="">Tel</label>
-                        <input type="tel" name="" id="" placeholder="xxxxxxxxxxx"><br><br>
-                        <label for="">Fotoğraf Ekle</label>
-                        <input type="file" name="" id="">
-                    </fieldset>
-                </div><br>
-                <div>
-                    <fieldset>
-                        <legend>Diğer Bilgiler</legend>
+
+<body>
+    <div>
+        <form action="result.html" method="get">
+            <div>
+                <h3>Yazılımcı Alım Sözleşmesi</h3>
+            </div>
+            <div class="bilgi">
+                <fieldset>
+                    <legend>Kişisel Bilgiler</legend>
                     
-                        <label for="">Sektöre Giriş Tarihi</label>
-                        <input type="date" name="" id=""><br><br>
-
-                        <p>Sektör Deneyimi</p>
-                        
-                        <input type="radio" name="1" id="1" value="1-5 Yıl">
-                        <label for="1">1-5 Yıl</label><br><br>
-                        
-                        <input type="radio" name="6" id="6" value="6-10 Yıl">
-                        <label for="6">6-10 Yıl</label><br><br>
-                        
-                        <input type="radio" name="11" id="11" value="11-15 Yıl">
-                        <label for="11">11-15 Yıl</label><br><br>
-                        
-                        <input type="radio" name="16" id="16" value="16 ve Üzeri">
-                        <label for="16">16 ve Üzeri</label><br><br>
-
-                        <label for="input">Progromlama Dilleri</label>
-                            <select name="" id="input">
-                            <option value="Python">Python</option>
-                            <option value="C++">C++</option>
-                            <option value="Java">Java</option>
-                            <option value="JavaScript">JavaScript</option>
-                            <option value="PHP">PHP</option>
-                            <option value="C#">C#</option>
-                        </select>
-                    </fieldset>
-                </div><br>
-                <div>
-                    <fieldset>
-                    <label for="">Eklemek İStedikleriniz</label><br><br>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Ek Açıklama"></textarea>
-                    </fieldset>
-                </div><br>
-                <div>
-                    <fieldset>
-                        <legend>Sözleşme Beyannamesi</legend>
-                        <textarea name="" id="" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis officia doloribus excepturi, in perferendis vel ipsum, quasi error harum quibusdam et vitae maiores nisi. Vitae iste deleniti rem sit, id, ipsam quis rerum commodi, iusto incidunt nostrum obcaecati! Voluptatem!</textarea><br><br>
-                        <label for="">Sözleşmeyi Okudum ve Kabul Ediyorum</label>
-                        <input type="radio" name="" id="" >
-                    </fieldset>
-                </div>
-                
+                    <div>
+                        <label class="a" for="ad">Ad </label>
+                        <input type="text" name="" id="ad" placeholder="Adınız">
+                    </div>
+                    
 
 
+                    <div>
+                        <label class="a" for="ad">Soyad</label>
+                        <input type="text" name="" id="ad" placeholder="Soyadınız">
+                    </div>
+
+                    <div>
+                        <label class="a" for="ad">Yaş</label>
+                        <input type="number" name="" id="ad" placeholder="xx" min="18">
+                    </div>
+
+                    <div >
+                        <label class="a" for="ad">Mail Adres</label>
+                        <input type="email" name="" id="ad" placeholder="example@gmail.com">
+                    </div>
+
+                    <div>
+                        <label  class="a" for="ad">Tel</label>
+                        <input type="tel" name="" id="ad" placeholder="xxxxxxxxxxx">
+                    </div><br>
+
+                    <div>
+                        <label class="a" for="ad">Fotoğraf Ekle</label><br><br>
+                        <input type="file" name="" id="ad">
+                    </div>
+
+                </fieldset>
+            </div><br>
+            <div>
+                <fieldset>
+                    <legend>Diğer Bilgiler</legend>
+
+                    <label for="tarih">Sektöre Giriş Tarihi</label>
+                    <input type="date" name="" id="tarih"><br><br>
+
+                    <p> Sektör Deneyimi</p>
+                    <hr width="100px" align="left">
+                   
+
+                    <input type="radio" name="1" id="1" value="1-5 Yıl">
+                    <label for="1">1-5 Yıl</label><br><br>
+
+                    <input type="radio" name="6" id="6" value="6-10 Yıl">
+                    <label for="6">6-10 Yıl</label><br><br>
+
+                    <input type="radio" name="11" id="11" value="11-15 Yıl">
+                    <label for="11">11-15 Yıl</label><br><br>
+
+                    <input type="radio" name="16" id="16" value="16 ve Üzeri">
+                    <label for="16">16 ve Üzeri</label><br><br>
+
+                    <label for="input">Progromlama Dilleri</label>
+                    <select name="" id="input">
+                        <option value="Python">Python</option>
+                        <option value="C++">C++</option>
+                        <option value="Java">Java</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="C#">C#</option>
+                    </select>
+                </fieldset>
+            </div><br>
+            <div>
+                <fieldset>
+                    <legend>Eklemek İstedikleriniz</legend><br><br>
+                    <textarea name="" id="text" cols="30" rows="10" placeholder="Ek Açıklama" ></textarea>
+                </fieldset>
+            </div><br>
+            <div>
+                <fieldset>
+                    <legend>Sözleşme Beyannamesi</legend>
+                    <textarea name="" id="söz" cols="30"
+                        rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis officia doloribus excepturi, in perferendis vel ipsum, quasi error harum quibusdam et vitae maiores nisi. Vitae iste deleniti rem sit, id, ipsam quis rerum commodi, iusto incidunt nostrum obcaecati! Voluptatem!</textarea><br><br>
+                    <label for="">Sözleşmeyi Okudum ve Kabul Ediyorum</label>
+                    <input type="radio" name="" id="">
+                </fieldset>
+            </div>
 
 
 
-            </form>
-        </div>
-   </body>
+
+
+
+        </form>
+    </div>
+</body>
+
 </html>
