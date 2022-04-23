@@ -87,7 +87,7 @@ article>h2{
     /* border: 2px solid blue; */
 }
 .images{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     margin-left: 275px;
     
 }
@@ -118,10 +118,11 @@ h2,p{
     
 }
 .join{
-    background-color: lightgray;
+    background-color: rgb(231, 229, 229);
     /* padding-bottom: 60px; */
     outline:none;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+    
     
     
 }
@@ -145,4 +146,8 @@ footer{
 footer>p{
     vertical-align: middle;
     font-size: small;
+}
+.x:hover, .x:active{
+    
+    height: 220px;
 }
