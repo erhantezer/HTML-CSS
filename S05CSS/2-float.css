@@ -1,30 +1,33 @@
 * {
-  margin: 0;
+    margin: 0;
 }
+
 .img-float {
-  width: 30%;
-  float: left;
-  margin-right: 1.3rem;
+    width: 30%;
+    float: left;
+    margin-right: 1.3rem;
 }
+
 .clearfix {
-  clear: both;
+    clear: both;
 }
 
 .box {
-  float: left;
-  font-size: 2rem;
+    float: left;
+    font-size: 2rem;
 }
+
 .box1 {
-  background-color: yellowgreen;
-  width: 10%;
+    background-color: yellowgreen;
+    width: 10%;
 }
 
 .box2 {
-  background-color: pink;
-  width: 50%;
+    background-color: pink;
+    width: 50%;
 }
 
 .box3 {
-  background-color: purple;
-  width: 20%;
+    background-color: purple;
+    width: 21%;
 }
