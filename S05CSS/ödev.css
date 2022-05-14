@@ -36,7 +36,11 @@ aside {
 }
 
 aside p {
-    padding-top: 20vh;
+    padding-top: 10rem;
+    /* border: 1px solid red; */
+    /* max-width: 2rem;
+    max-height: 2rem; */
+    position: relative;
 }
 
 main {
