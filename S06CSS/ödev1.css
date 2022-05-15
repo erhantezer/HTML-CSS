@@ -1,31 +1,41 @@
-
+*{
+    background-color: rgb(207, 207, 207);
+}
 .box1{
     display: flex;
     justify-content :space-around; 
     margin-top: 120px;
+    font-size: x-large;
+    letter-spacing: 2px;
+    
+    
 }
 .box2{
     display: flex;
     justify-content :space-around; 
     margin-top: 100px;
+    font-size: x-large;
+    letter-spacing: 2px;
 }
 
 .text1{
-    background-color: aqua;
+    background-color: rgb(121, 255, 255);
     color: white;
     width: 25vw;
     height: 25vh;
     text-align: center;
     line-height: 25vh;
+    text-shadow:1px 1px 2px black ;
     
 }
 .text2{
-    background-color: rgb(82, 83, 83);
-    color: white;
+    background-color: rgb(48, 48, 48);
+    color: black;
     width: 25vw;
     height: 25vh;
     text-align: center;
     line-height: 25vh;
+    text-shadow: 1px 1px 1px rgb(117, 117, 117);
   
 }
 .text3{
@@ -35,7 +45,8 @@
     height: 25vh;
     text-align: center;
     line-height: 25vh;
-    border: 1px solid grey;
+    text-shadow:2px 2px white, 4px 4px  rgb(170, 170, 170);
+    
    
 }
 .text4{
@@ -45,15 +56,17 @@
     height: 25vh;
     text-align: center;
     line-height: 25vh;
+    text-shadow:0 4px 3px rgb(161, 161, 161),0 6px 1px rgb(201, 201, 201) ;
     
 }
 .text5{
-    background-color:rgb(1, 151, 101);
-    color: white;
+    background-color:rgb(98, 138, 6);
+    color: rgb(0, 0, 0);
     width: 25vw;
     height: 25vh;
     text-align: center;
     line-height: 25vh;
+    text-shadow: 1px 3px 4px rgb(53, 53, 53), 1px -4px 3px rgb(143, 143, 143);
     
 }
 .text6{
@@ -63,5 +76,6 @@
     height: 25vh;
     text-align: center;
     line-height: 25vh;
+    text-shadow: -3px 3px  lightgray, -6px 6px rgb(192, 192, 192), -9px 9px rgb(163, 163, 163);
 
 }
