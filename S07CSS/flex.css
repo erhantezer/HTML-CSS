@@ -18,6 +18,9 @@
     height: 5rem;
     background-color: violet;
     margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .container1{
     height: 20rem;
@@ -25,13 +28,24 @@
     display: flex;
     gap: 10px 30px;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
     
-
   }
+  /* .container1 div:nth-child(2){
+    flex-grow: 10;
+  }
+  .container1 div:nth-child(4){
+    flex-shrink: 8;
+  } */
 
   .container1 div{
     height: 5rem;
     width: 5rem;
     background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  .
