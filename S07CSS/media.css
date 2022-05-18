@@ -54,6 +54,7 @@ h1 {
 .fs {
   width: 35%;
   background-color: lightgray;
+  animation: fs 1s ease-in-out infinite alternate;
 }
 .aws {
   width: 20%;
@@ -67,31 +68,48 @@ h1 {
   width: 15%;
   background-color: rgb(243, 239, 239);
 }
-@media screen and (max-width: 600px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 
-  }
+@media screen and (max-width: 992px) {
   body{
-    background-color: fuchsia;
+    background-color: rgb(206, 114, 114);
+    color: white;
+  }
+  .col{
+    width: 50%;
+    margin: 1rem 0rem;
+}
+}
+@media screen and (max-width: 600px){
+
+  body{
+    background-color: purple;
+    color: white;
   }
   .header{
     display: none;
-
   }
-  h1{
-    color: white;
-  }
-  .row{
-    display: block;
+  .navbar{
+    flex-direction: column;
     /* flex-wrap: wrap; */
-    width: 100%;
-    
+    text-align: center;
   }
   .col{
+    flex-direction: column;
     width: 100%;
-    margin-top: 0.5rem;
+  }
+  .row{
+    text-align: center;
+  }
+ 
+ 
+
+}
+@-webkit-keyframes fs {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 50px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 40px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
