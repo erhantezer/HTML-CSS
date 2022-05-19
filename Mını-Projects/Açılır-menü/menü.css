@@ -42,9 +42,7 @@ li a{
     font-size: larger;
     color: white;
 }
-li{
-    /* padding: 0.3rem; */
-}
+
 .menu:hover i{
     transform: rotate(180deg); 
    
