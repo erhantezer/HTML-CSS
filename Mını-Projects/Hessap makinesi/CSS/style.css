@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 40px;
+}
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 480px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap:5px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+ text-align: center;
+ width: 90px;
+ height: 90px;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+
+}
+
+
+
+.equal, .dot, .zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+    background-color: #333;
+}
+
+.plus, .minus, .multiple, .divide {
+    background-color: #F1A33C;
+}
+
+.clear, .plusminus, .percent {
+    background-color: #a5a5a5;
+    color: black;
+}
+.ekran{
+    /* grid-area: span 2/ span 4; */
+    grid-column-start: 1 ;
+    grid-column-end:5 ;
+    background-color: #333;
+    width: 420px;
+    height: 150px;
+    margin: 50px 20px;
+    text-align: left;
+    border-radius: 50px;
+    
+}
+.zero{
+    grid-column-start: 1 ;
+    grid-column-end:3 ;
+    height: 100px;
+    width: 220px;
+    border-radius: 50px;
+    padding:28px 38px;
+}
+@media screen and (max-width: 600px){
+    .container{
+        transform:scale(0.6)
+    }
+    
+}
