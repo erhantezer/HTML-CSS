@@ -78,6 +78,7 @@ select{
     outline: none;
   
 }
+
 .b{
   
     border: 1px solid gray; 
@@ -86,7 +87,9 @@ select{
 .country{
     width: 6.5rem;
     
-    
+}
+.post{
+  margin-left:15px
 }
 .footer{
     display: flex;
