@@ -74,7 +74,9 @@ input{
 } */
 
 select{
-    border:none
+    border:none;
+    outline: none;
+  
 }
 .b{
   
@@ -82,7 +84,8 @@ select{
     border-radius: 5px;
 }
 .country{
-    width: 7rem;
+    width: 6.5rem;
+    
     
 }
 .footer{
